@@ -1,0 +1,219 @@
+body {
+    font-family: 'Amplitude', 'Arial Narrow', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5f5d5d;
+    text-align: left;
+    overflow-x:hidden;
+}
+
+h2,
+h1 {
+    text-align: center;
+    margin: 4rem;
+}
+
+h5 {
+    text-decoration: underline;
+    line-height: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-bottom: 1px solid #e4e2e1;
+}
+
+.footerSec {
+    border-style: none;
+}
+
+.footer-collapse {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2rem;
+}
+
+.footer-collapse li {
+    border: none;
+}
+
+.social {
+    text-align: center;
+
+}
+i {
+    margin-left: 3rem;
+}
+
+.carousel-caption p {
+    color: #5f5d5d;
+    font-family: 'Amplitude', 'Arial Narrow', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.carousel-caption {
+    display: block;
+    background-color: rgba(241, 240, 239, 0.92);
+    text-align: left;
+    padding-left: 1rem;
+
+}
+
+.carousel-caption1 {
+    position: relative;
+    display: block;
+    background-color: rgba(241, 240, 239, 0.92);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.carousel-caption h6 {
+    color: #5f5d5d;
+    font-family: 'Amplitude', 'Arial Narrow', sans-serif;
+
+}
+
+.carousel-caption h5 {
+    text-decoration: underline;
+    color: #5f5d5d;
+}
+
+.topList {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.topHeader {
+    background-color: #f2f0f1;
+    height: 2rem;
+}
+
+.Sec1 {
+    margin: 0 2rem;
+}
+
+.Sec2 {
+    margin-top: 6rem;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    box-shadow: 0 2px 3px rgb(0 0 0 / 25%);
+    margin: 1rem;
+    height: 8rem;
+    font-family: 'Amplitude', 'Arial Narrow', sans-serif;
+    font-weight: 300;
+    
+    color: #5f5d5d;
+}
+
+.Sec3 {
+    margin: 4rem 2.5rem;
+    padding: 4rem;
+    background-color: #faf8f8;
+}
+
+.Sec3 .card {
+    background-color: #faf8f8;
+}
+
+.btnSec3 {
+    background-color: #737171;
+    border: 1px solid #737171;
+    border-radius: 0.2rem;
+    height: 2rem;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Sec5 {
+    margin:3rem 3rem 0 3rem ;
+    border-bottom: 7px solid #d5d3d3;
+}
+
+.Sec5 h1 {
+    color: #00477b;
+}
+
+.Sec5 h4 {
+    text-align: center;
+    color: #737171;
+    text-decoration: underline;
+    text-decoration-color: #00477b;
+    font-weight: bold;
+}
+
+.Sec5 h2 {
+    color: #00477b;
+    font-size: 1.5rem;
+}
+
+.card-title {
+    margin-top: 8rem;
+}
+
+.Sec7 {
+    padding-top: 3rem;
+    background-color: #f1f0ef;
+}
+
+.Sec6 {
+    padding-top: 2rem;
+    background-color: #f1f0ef;
+}
+@media (min-width: 320px) {
+
+    .card-text{
+        font-size: 0.6rem;  
+    }
+    
+}
+@media (min-width: 425px) {
+
+    .card-text{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width: 725px) {
+
+    .card-text{
+        font-size: 0.9rem;
+
+    }
+}
+@media (min-width: 1024px) {
+
+    .card-text{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 2560px) {
+
+    .card-text{
+        font-size: 2.5rem;
+    }
+}
+.accordion-item h2{
+
+    margin: 0 4rem;
+}
+
